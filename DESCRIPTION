@@ -1,6 +1,6 @@
 Package: KMunicate
 Title: KMunicate-Style Kaplan–Meier Plots
-Version: 0.0.2
+Version: 0.1.0
 Authors@R: c(
   person(given = "Alessandro", 
          family = "Gasparini", 
@@ -29,9 +29,9 @@ Imports: checkmate, cowplot, ggplot2, pammtools, tidyr
 Suggests: broom, covr, devtools, extrafont, knitr, rmarkdown, simsurv,
         testthat, usethis
 NeedsCompilation: no
-Packaged: 2020-07-29 13:35:27 UTC; ellessenne
+Packaged: 2020-09-02 20:18:25 UTC; ellessenne
 Author: Alessandro Gasparini [aut, cre, cph]
     (<https://orcid.org/0000-0002-8319-7624>)
 Maintainer: Alessandro Gasparini <alessandro.gasparini@ki.se>
 Repository: CRAN
-Date/Publication: 2020-08-03 11:22:14 UTC
+Date/Publication: 2020-09-03 06:52:11 UTC

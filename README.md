@@ -14,6 +14,8 @@ status](https://ci.appveyor.com/api/projects/status/github/ellessenne/KMunicate-
 coverage](https://codecov.io/gh/ellessenne/KMunicate-package/branch/master/graph/badge.svg)](https://codecov.io/gh/ellessenne/KMunicate-package?branch=master)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/KMunicate)](https://CRAN.R-project.org/package=KMunicate)
+[![CRAN\_Logs\_Badge](http://cranlogs.r-pkg.org/badges/KMunicate)](https://cran.r-project.org/package=KMunicate)
+[![CRAN\_Logs\_Badge\_Total](http://cranlogs.r-pkg.org/badges/grand-total/KMunicate)](https://cran.r-project.org/package=KMunicate)
 <!-- badges: end -->
 
 The goal of {KMunicate} is to produce Kaplan–Meier plots in the style
@@ -25,7 +27,14 @@ stakeholder views: KMunicate. *BMJ Open*, 2019, 9:e030215).
 Installation
 ------------
 
-You can install {KMunicate} from [GitHub](https://github.com/) with:
+You can install {KMunicate} from
+[CRAN](https://CRAN.R-project.org/package=KMunicate) by typing the
+following in your R console:
+
+    install.packages("KMunicate")
+
+Alternatively, you can install the dev version of {KMunicate} from
+[GitHub](https://github.com/ellessenne/KMunicate-package/) with:
 
     # install.packages("devtools")
     devtools::install_github("ellessenne/KMunicate-package")
@@ -59,6 +68,15 @@ does:
     KMunicate(fit = KM, time_scale = time_scale)
 
 <img src="man/figures/README-cancer-single-1.png" width="90%" style="display: block; margin: auto;" />
+
+Finally, you can also plot 1 - survival by using the argument
+`.reverse = TRUE`:
+
+    KM <- survfit(Surv(rectime, censrec) ~ hormon, data = brcancer)
+    time_scale <- seq(0, max(brcancer$rectime), by = 365)
+    KMunicate(fit = KM, time_scale = time_scale, .reverse = TRUE)
+
+<img src="man/figures/README-brcancer-reverse-1.png" width="90%" style="display: block; margin: auto;" />
 
 Customise Risk Table
 --------------------
