@@ -71,3 +71,40 @@ KMunicate(
   .ff = "Roboto Condensed"
 )
 
+## ----size, fig.height = 6 * sqrt(2), fig.width = 6----------------------------
+KMunicate(
+  fit = fit2,
+  time_scale = ts,
+  .size = 2
+)
+
+## ----linetype_scale, fig.height = 6 * sqrt(2), fig.width = 6------------------
+KMunicate(
+  fit = fit2,
+  time_scale = ts,
+  .linetype_scale = ggplot2::scale_linetype_manual(values = c("dotted", "dashed"))
+)
+
+## ----legend_position, fig.height = 6 * sqrt(2), fig.width = 6-----------------
+KMunicate(
+  fit = fit2,
+  time_scale = ts,
+  .reverse = TRUE,
+  .legend_position = c(0, 1)
+)
+
+## ----legend_position_none, fig.height = 6 * sqrt(2), fig.width = 6------------
+KMunicate(
+  fit = fit2,
+  time_scale = ts,
+  .reverse = TRUE,
+  .legend_position = "none"
+)
+
+## ----annotate, fig.height = 6 * sqrt(2), fig.width = 6------------------------
+KMunicate(
+  fit = fit2,
+  time_scale = ts,
+  .annotate = ggplot2::annotate(geom = "text", x = 365, y = 0.5, label = "Some annotation")
+)
+
