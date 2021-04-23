@@ -52,23 +52,14 @@ KMunicate(fit = fit2, time_scale = ts, .xlab = "New Label (Time in Days, Actuall
 ## ----p7, fig.height = 6 * sqrt(2), fig.width = 6------------------------------
 KMunicate(fit = fit2, time_scale = ts, .rel_heights = c(1, 1, 1))
 
-## ----fonts, warning = FALSE, message = FALSE----------------------------------
-library(extrafont)
-# extrafont::font_import()
-extrafont::loadfonts()
-
-## ----p8, fig.height = 6 * sqrt(2), fig.width = 6------------------------------
-KMunicate(fit = fit2, time_scale = ts, .ff = "Times New Roman")
-
 ## ----better-plot, fig.height = 6 * sqrt(2), fig.width = 6---------------------
 KMunicate(
   fit = fit2,
   time_scale = ts,
-  .theme = ggplot2::theme_minimal(base_family = "Roboto Condensed"),
+  .theme = ggplot2::theme_minimal(),
   .xlab = "Time (in days)",
   .color_scale = ggplot2::scale_color_brewer(type = "qual", palette = "Set2"),
-  .fill_scale = ggplot2::scale_fill_brewer(type = "qual", palette = "Set2"),
-  .ff = "Roboto Condensed"
+  .fill_scale = ggplot2::scale_fill_brewer(type = "qual", palette = "Set2")
 )
 
 ## ----size, fig.height = 6 * sqrt(2), fig.width = 6----------------------------

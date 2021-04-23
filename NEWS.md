@@ -1,3 +1,9 @@
+# KMunicate 0.2.1
+
+This is a minor release.
+The only change is in the vignette, which has been updated by removing examples of custom fonts to avoid issues (and headaches) on CRAN and other testing environments (e.g. GitHub Actions).
+This fully removes the dependency (as a suggested package) to {extrafont}.
+
 # KMunicate 0.2.0
 
 ### New features
