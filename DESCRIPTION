@@ -1,11 +1,11 @@
 Package: KMunicate
 Title: KMunicate-Style Kaplan–Meier Plots
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: 
     c(person(given = "Alessandro",
              family = "Gasparini",
              role = c("aut", "cre", "cph"),
-             email = "alessandro.gasparini@ki.se",
+             email = "alessandro@ellessenne.xyz",
              comment = c(ORCID = "0000-0002-8319-7624")),
       person(given = "Ary",
              family = "Serpa Neto",
@@ -31,12 +31,12 @@ ByteCompile: true
 Encoding: UTF-8
 Language: en-GB
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.1
 NeedsCompilation: no
-Packaged: 2021-04-22 09:39:52 UTC; ellessenne
+Packaged: 2022-08-16 10:43:20 UTC; ellessenne
 Author: Alessandro Gasparini [aut, cre, cph]
     (<https://orcid.org/0000-0002-8319-7624>),
   Ary Serpa Neto [ctb]
-Maintainer: Alessandro Gasparini <alessandro.gasparini@ki.se>
+Maintainer: Alessandro Gasparini <alessandro@ellessenne.xyz>
 Repository: CRAN
-Date/Publication: 2021-04-23 15:00:15 UTC
+Date/Publication: 2022-08-16 13:30:06 UTC
