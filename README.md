@@ -15,6 +15,8 @@ status](https://www.r-pkg.org/badges/version/KMunicate)](https://CRAN.R-project.
 [![CRAN_Logs_Badge_Total](http://cranlogs.r-pkg.org/badges/grand-total/KMunicate)](https://cran.r-project.org/package=KMunicate)
 <!-- badges: end -->
 
+README Last updated: 2023-01-11
+
 The goal of {KMunicate} is to produce Kaplan–Meier plots in the style
 recommended following the [KMunicate
 study](http://dx.doi.org/10.1136/bmjopen-2019-030215) (TP Morris *et
@@ -133,7 +135,7 @@ have to do is pass the font name as the `.ff` argument:
 ``` r
 KM <- survfit(Surv(studytime, died) ~ 1, data = cancer2)
 time_scale <- seq(0, max(cancer2$studytime), by = 7)
-KMunicate(fit = KM, time_scale = time_scale, .ff = "Victor Mono")
+KMunicate(fit = KM, time_scale = time_scale, .ff = "Times New Roman")
 ```
 
 <img src="man/figures/README-cancer-single-ff-1.png" width="90%" style="display: block; margin: auto;" />

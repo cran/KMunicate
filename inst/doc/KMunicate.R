@@ -99,3 +99,12 @@ KMunicate(
   .annotate = ggplot2::annotate(geom = "text", x = 365, y = 0.5, label = "Some annotation")
 )
 
+## ----labels, fig.height = 6 * sqrt(2), fig.width = 6--------------------------
+KMunicate(
+  fit = fit2,
+  time_scale = ts,
+  .xlab = "New Label, X Axis",
+  .ylab = "New Label, Y Axis",
+  .title = "New Title Who Dis"
+)
+

@@ -1,4 +1,15 @@
+# KMunicate 0.2.3
+
+This is a minor release.
+
+### New features
+
+* New argument `.title` to add a title to the plot (thanks to Sarwar I. Mozumder for the suggestion);
+* Small updates and improvements to package documentation.
+
 # KMunicate 0.2.2
+
+This is a minor release, with the following changes:
 
 * Updated maintainer e-mail.
 * Fixed URL that was moved.
