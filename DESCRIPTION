@@ -1,6 +1,6 @@
 Package: KMunicate
 Title: KMunicate-Style Kaplan–Meier Plots
-Version: 0.2.3
+Version: 0.2.4
 Authors@R: 
     c(person(given = "Alessandro",
              family = "Gasparini",
@@ -20,7 +20,8 @@ Description: Produce Kaplan–Meier plots in the style recommended
     customised to a certain extent, including themes, fonts, and colour
     scales.
 License: MIT + file LICENSE
-URL: https://ellessenne.github.io/KMunicate-package/
+URL: https://ellessenne.github.io/KMunicate-package/,
+        https://github.com/ellessenne/KMunicate-package
 BugReports: https://github.com/ellessenne/KMunicate-package/issues
 Depends: R (>= 2.10), survival
 Imports: checkmate, cowplot, ggplot2, pammtools, tidyr
@@ -33,10 +34,10 @@ Language: en-GB
 LazyData: true
 RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2023-01-11 20:48:53 UTC; ellessenne
+Packaged: 2023-08-26 10:00:09 UTC; ellessenne
 Author: Alessandro Gasparini [aut, cre, cph]
     (<https://orcid.org/0000-0002-8319-7624>),
   Ary Serpa Neto [ctb]
 Maintainer: Alessandro Gasparini <alessandro@ellessenne.xyz>
 Repository: CRAN
-Date/Publication: 2023-01-11 21:13:10 UTC
+Date/Publication: 2023-08-26 10:20:02 UTC
