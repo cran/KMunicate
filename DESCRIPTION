@@ -1,6 +1,6 @@
 Package: KMunicate
 Title: KMunicate-Style Kaplan–Meier Plots
-Version: 0.2.4
+Version: 0.2.5
 Authors@R: 
     c(person(given = "Alessandro",
              family = "Gasparini",
@@ -9,7 +9,11 @@ Authors@R:
              comment = c(ORCID = "0000-0002-8319-7624")),
       person(given = "Ary",
              family = "Serpa Neto",
-             role = "ctb"))
+             role = "ctb"),
+      person(given = "Peter",
+             family = "Dutey",
+             role = "ctb",
+             comment = c(ORCID = "0000-0002-8942-9836")))
 Description: Produce Kaplan–Meier plots in the style recommended
     following the KMunicate study by Morris et al. (2019)
     <doi:10.1136/bmjopen-2019-030215>. The KMunicate style consists of
@@ -32,12 +36,13 @@ ByteCompile: true
 Encoding: UTF-8
 Language: en-GB
 LazyData: true
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 NeedsCompilation: no
-Packaged: 2023-08-26 10:00:09 UTC; ellessenne
+Packaged: 2024-05-16 11:10:28 UTC; ellessenne
 Author: Alessandro Gasparini [aut, cre, cph]
     (<https://orcid.org/0000-0002-8319-7624>),
-  Ary Serpa Neto [ctb]
+  Ary Serpa Neto [ctb],
+  Peter Dutey [ctb] (<https://orcid.org/0000-0002-8942-9836>)
 Maintainer: Alessandro Gasparini <alessandro@ellessenne.xyz>
 Repository: CRAN
-Date/Publication: 2023-08-26 10:20:02 UTC
+Date/Publication: 2024-05-16 11:50:08 UTC
